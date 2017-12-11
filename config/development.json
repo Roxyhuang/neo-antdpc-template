@@ -1,0 +1,12 @@
+{
+  "env": "development",
+  "publicPath": "http://localhost:3000",
+  "host": "localhost",
+  "port": "3000",
+  "fetchConfig": {
+      "isMock": false,
+      "fetchUrl": "http://localhost:8888"
+  },
+  "debug": false,
+  "analyzerBundle": false
+}

@@ -1,0 +1,13 @@
+{
+  "env": "production",
+  "publicPath": "http://local.neo:3000",
+  "host": "localhost",
+  "port": "3000",
+  "fetchConfig": {
+    "isMock": false,
+    "fetchUrl": ""
+  }
+//  "zipConfig": {
+//    "dirName": "test"
+//  }
+}

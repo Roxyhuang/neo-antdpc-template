@@ -1,0 +1,34 @@
+{
+  "env": "default",
+  "publicPath": "http://localhost:3000",
+  "host": "localhost",
+  "port": "3000",
+  "jsSourcePath": "src",
+  "distDirectory": "dist",
+  "templatePage": "public/index.html",
+  "serverIndex": "index.html",
+  "debug": false,
+  "bundleConfig":
+    { "assets/js/static": "./src/assets/js/static.js","assets/js/test": "./src/assets/js/test.js" }
+  ,
+  "vendorList": [
+    "whatwg-fetch",
+    "react-router-transition"
+  ],
+  "fetchConfig": {
+    "isMock": false,
+    "fetchUrl": "http://localhost:8888"
+  },
+  "mockConfig": {
+    "mockUrl": "",
+    "port": 8888
+  },
+  "appEntry": {
+    "index": "./src/views/index/entry.jsx",
+    "app": "./src/views/index/entry.jsx"
+//    "app": "./src/Main.jsx",
+//    "project": "./src/containers/project1/Entry.jsx",
+//    "project2": "./src/containers/project2/Entry.jsx"
+  }
+//  "serverIndex": "app/app.html"
+}
