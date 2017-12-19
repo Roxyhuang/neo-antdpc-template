@@ -24,7 +24,7 @@ const APP_ENTRY_POINT = config.get('appEntry');
 let PUBLIC_PATH;
 
 if (process.env.NODE_ENV === 'development') {
-  PUBLIC_PATH = '.'
+  PUBLIC_PATH = ''
 } else {
   PUBLIC_PATH = config.get('publicPath');
 }
